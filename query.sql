@@ -15,4 +15,6 @@
 
 SELECT * FROM users;
 SELECT * FROM preferences;
-SELECT DISTINCT * FROM preferences LEFT JOIN users WHERE preferences.user_id = users.user_id;
+-- DELETE FROM preferences WHERE user_id = 1000001;
+-- SELECT DISTINCT * FROM preferences LEFT JOIN users WHERE preferences.user_id = users.user_id;
+
