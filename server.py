@@ -31,7 +31,7 @@ def server():
         if not data:
             break
 
-        print(data.decode())
+        print(data.decode().split(" "))
 
         try:
             eval(data.decode())

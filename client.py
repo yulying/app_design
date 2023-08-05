@@ -17,4 +17,5 @@ def client():
     client_socket.close()
 
 
+# Called when a new thread is created
 client()
